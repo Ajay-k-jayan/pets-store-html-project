@@ -1,0 +1,112 @@
+/* menu of pets styling*/
+.menuGrid__title{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: var(--black-1);
+    text-align: center;
+
+}
+.menuGrid__wrapper{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.menuGrid__item{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--lightGreen-1);
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+.menuGrid__item__info{
+    text-align: center;
+}
+.menuGrid__item__img{
+    flex: 4;
+}
+.menuGrid__item__info{
+    flex: 5;
+}
+.menuGrid__item__img img{
+    object-fit: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+.menuGrid__item__title{
+    font-size: 1.4rem;
+    color: var(--green-1);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    
+}
+.menuGrid__item__price{
+    font-size: 1.4rem;
+    color: var(--green-1);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.menuGrid__item:hover{
+    background: #5f7266;
+    color: var(--white-1);
+    border-bottom: 1px solid rgba( 0, 0, 0, 0.1);
+}
+.menuGrid__item:hover h3{
+    color: var(--white-1);
+}
+/* .menuGrid__btn{
+    padding: 1rem;
+    
+}
+.btn-main{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--green-1);
+    border: 1px solid var(--green-1);
+    padding: o.5rem;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-weight: 900;
+    
+}
+.btn-main:hover{
+    border: 1px solid #63d471;
+    background: #63d471;
+    transition: 1s;
+    color: white;
+    font-weight: 600;
+} */
+@media only screen and (min-width: 768px){
+    .menuGrid__title{
+        
+        font-size: 2.4rem;
+    }
+    .menuGrid__wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 3rem;
+    }
+
+    .menuGrid__item__title{
+        
+        font-size: 2.4rem;
+        margin-bottom: 1rem;
+    }
+    .menuGrid__item__price{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .menuGrid__item__img img{
+        object-fit: cover;
+        border-radius: 4px;
+    }
+}
+/*end of  menu of pets styling*/

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home | Pets shop</title>
+    <!-----css   -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/globalStyles.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <link rel="stylesheet" href="./css/login.css">\
+    <link rel="stylesheet" href="./css/contact.css">
+    <!-----aos css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!---font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- boostrap  -->
+
+</head>
+
+<body>
+    <!----- nav section-------->
+    <div class="nav">
+        <div class="container">
+            <div class="nav__wrapper">
+                <a href="./index.html" class="logo">
+                    <img src="./images/logo.png" alt="Pet's shop">
+                </a>
+                <nav>
+                    <div class="nav__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav__bgOverlay "></div>
+                    <ul class="nav__list">
+                        <div class="nav__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                <line x1="9" y1="9" x2="15" y2="15" />
+                                <line x1="15" y1="9" x2="9" y2="15" />
+                            </svg>
+                        </div>
+
+                        <div class="nav__list__wrapper">
+                            <li><a href="./index.html" class="nav__link">Home</a></li>
+                            <li><a href="./login.html" class="nav__link">Account</a></li>
+                            <li><a href="./about.html" class="nav__link">About</a></li>
+                            <li><a href="./contact.html" class="nav__link">Contact</a></li>
+                            <li><a href="./booking.html" class="btn primary-btn">Book Pets</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--    ***nav section end *** -->
+    <!--    hero section  -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__left" data-aos="fade-left">
+                    <div class="hero__left__wrapper">
+                        <h1 class="hero__heading">Pets make great companions</h1>
+                        <p class="hero__info">When treated right, they show a lot of love and loyalty to their owners.
+                            Most of us who have pets share a very strong bond with them.We providing best species of
+                            pets.</p>
+                        <div class="button__wrapper">
+                            <a href="./login.html" class="btn primary-btn">Explore with us</a>
+                            <a href="./booking.html" class="btn">Book Pet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right" data-aos="fade-right">
+                    <div class="hero__imgWrapper">
+                        <img src="./images/group-pets-removebg-preview.png" alt="food img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    *** end  of hero secton***-->
+    <!-- carousel section   -->
+    <section class="carouselInfo" data-aos="fade-up">
+        <div class="container">
+            <div id="homepage-slider" class="st-slider">
+
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide1" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide2" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="slide3" />
+                <input type="radio" class="cs_anchor radio" name="slider" id="play1" checked="" />
+
+                <div class="images">
+                    <div class="images-inner">
+                        <div class="image-slide">
+                            <div class="image "><img src="./images/carousel1.webp" alt="" class="image__set"> </div>
+                        </div>
+                        <div class="image-slide">
+                            <div class="image "><img src="./images/carousel4.jpg" alt="" class="image__set"></div>
+                        </div>
+                        <div class="image-slide">
+                            <div class="image "><img src="./images/carousel5.jpg" alt="" class="image__set"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="labels">
+                    <label for="slide1" class="label">
+                        <div class="container">
+                    </label>
+                    <label for="slide2" class="label"></label>
+                    <label for="slide3" class="label"></label>
+
+                    <div class="fake-radio">
+                        <label for="slide1" class="radio-btn"></label>
+                        <label for="slide2" class="radio-btn"></label>
+                        <label for="slide3" class="radio-btn"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of carousel  -->
+    <!--  pets catgory -->
+    <section id="categoryInfo" data-aos="fade-up">
+        <div class="container">
+            <div>
+                <h2 class="categoryInfo__header">CATEGORIES</h2>
+            </div>
+            <div class="categoryInfo__wrapper">
+                <div class="categoryInfo__item">
+                    <div class="categoryInfo__icon">
+                        <button type="submit" style="border: 0; background: transparent"><a href="./booking.html">
+                                <img src="./images/DogIcon.webp" width="90" height="90" alt="submit" /></a>
+                            <h3 class="categoryInfo__title">DOG</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="categoryInfo__item">
+                    <div class="categoryInfo__icon">
+                        <button type="submit" style="border: 0; background: transparent"><a href="./booking.html">
+                                <img src="./images/CatIcon.webp" width="90" height="90" alt="submit" /></a>
+                            <h3 class="categoryInfo__title">CAT</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="categoryInfo__item">
+                    <div class="categoryInfo__icon">
+                        <button type="submit" style="border: 0; background: transparent"><a href="./booking.html">
+                                <img src="./images/SmallFishIcon.webp" width="90" height="90" alt="submit" /></a>
+                            <h3 class="categoryInfo__title">FISH</h3>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="categoryInfo__item">
+                    <div class="categoryInfo__icon">
+                        <button type="submit" style="border: 0; background: transparent"><a href="./booking.html">
+                                <img src="./images/ParrotIcon.webp" width="90" height="90" alt="submit" /></a>
+                            <h3 class="categoryInfo__title">BIRD</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="categoryInfo__item">
+                    <div class="categoryInfo__icon">
+                        <button type="submit" style="border: 0; background: transparent"><a href="./booking.html">
+                                <img src="./images/SmallPetsIcon.webp" width="90" height="90" alt="submit" /></a>
+                            <h3 class="categoryInfo__title">OTHER PETS</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of pets category-->
+    <!-- providing -->
+    <section id="provideInfo" data-aos="fade-up">
+        <div class="container">
+            <div>
+                <h2 class="provideInfo__header">WE PROVIDING</h2>
+            </div>
+            <div class="provideInfo__wrapper">
+                <div class="provideInfo__item">
+                    <div class="provideInfo__icon">
+                        <img src="./images/pet-removebg-preview.png" alt="icon">
+                    </div>
+                    <h3 class="provideInfo__title">GOOD PETS</h3>
+                    <p class="provideInfo__text">VARIETY MODELS</p>
+                </div>
+                <div class="provideInfo__item">
+                    <div class="provideInfo__icon">
+                        <img src="./images/foodpet.png" alt="icon">
+                    </div>
+                    <h3 class="provideInfo__title">FOODS</h3>
+                    <p class="provideInfo__text">GOOD QUALITY</p>
+                </div>
+                <div class="provideInfo__item">
+                    <div class="provideInfo__icon">
+                        <img src="./images/pet_toy.png" alt="icon">
+                    </div>
+                    <h3 class="provideInfo__title">TOOLS</h3>
+                    <p class="provideInfo__text">TOYS AND OTHERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of providing  -->
+    <!--testimonial section-->
+    <section id="testimonial" data-aos="fade-up">
+        <div class="container">
+            <div class="testimonial__wrapper">
+                <h2 class="testimonial__title">Whats our customers say</h2>
+                <div class="testimonial__items__wrapper">
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/customer3.jpg" alt="geo jhony">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__info">Geo Jhony</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="stars">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "I am booked a pet from this.Its really good one,and i like this"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/customer2.jpg" alt="elina">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__info">Elina</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="stars">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "awesome products.My puppy get good quality nutriantion food."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/customer4.jpg" alt="bristo">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__info">Bristo</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="stars">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "Fast delivery and punctuality"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial__item">
+                        <div class="testimonial__item__img">
+                            <img src="./images/testimonial_img1.png" alt="eve maria">
+                        </div>
+                        <div class="testimonial__item__info">
+                            <h3 class="testimonial__item__info">Eve Maria</h3>
+                            <div class="testimonial__item__stars">
+                                <img src="./images/3star.png" alt="stars">
+                            </div>
+                            <p class="testimonial__item__text">
+                                "Wonderful online platform.i never see awesome..."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--testimonial section-->
+    <!--   footer    -->
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__col1">
+                    <div class="footer__logo">
+                        <img src="./images/logo.png" alt="Pet's Shop">
+                    </div>
+                    <p class="footer__desc">
+                        Variaty and rare pets in World.
+                    </p>
+                    <div class="footer__socials">
+                        <h4 class="footer__social__title">Follow us</h4>
+                        <ol>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title">Links</h3>
+                    <ol class="footer__text">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./login.html">Account</a></li>
+                        <li><a href="./booking.html">Book pet</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title">Supports</h3>
+                    <ol class="footer__text">
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="#">Support Center</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ol>
+                </div>
+                <div class="footer__col2">
+                    <h3 class="footer__text__title">Contact</h3>
+                    <ol class="footer__text">
+                        <li><a href="tel:+919999999999">+91 9999999999</a></li>
+                        <li><a href="mlite:ajaykj2000@gmail.com"> ajaykj2000@gmail.com</a></li>
+                        <li><a href="https://goo.gl/maps/5DVKSrpqzTF83bfFA">kochin,kerala,India</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright__text">© 2022 Copyright: Pets shop kochi |All rights reserved</p>
+        </div>
+    </div>
+
+
+    <!------aos script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--   custom script   -->
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+
+
+    </script>
+</body>
+
+</html>
